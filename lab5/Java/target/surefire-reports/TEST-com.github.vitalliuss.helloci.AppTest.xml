@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.067" tests="5" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.028" tests="5" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\6sem\Test\labs\lab5\Java\target\test-classes;D:\6sem\Test\labs\lab5\Java\target\classes;C:\Users\maksi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\maksi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\6sem\Test\labs\lab5\Java\target\test-classes;D:\6sem\Test\labs\lab5\Java\target\classes;C:\Users\maksi\.m2\repository\junit\junit\4.2\junit-4.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\maksi\AppData\Local\Temp\surefire11357269310753878702\surefirebooter4209322466678121398.jar C:\Users\maksi\AppData\Local\Temp\surefire11357269310753878702 2024-03-21T11-40-04_826-jvmRun1 surefire11494521860161182738tmp surefire_02927062849097585781tmp"/>
+    <property name="sun.java.command" value="C:\Users\maksi\AppData\Local\Temp\surefire6551815211208920886\surefirebooter8334300302958623552.jar C:\Users\maksi\AppData\Local\Temp\surefire6551815211208920886 2024-03-23T08-15-22_957-jvmRun1 surefire5808536231545977031tmp surefire_014702440167830602600tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\6sem\Test\labs\lab5\Java\target\test-classes;D:\6sem\Test\labs\lab5\Java\target\classes;C:\Users\maksi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\maksi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\6sem\Test\labs\lab5\Java\target\test-classes;D:\6sem\Test\labs\lab5\Java\target\classes;C:\Users\maksi\.m2\repository\junit\junit\4.2\junit-4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\maksi"/>
     <property name="user.language" value="ru"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\maksi\AppData\Local\Temp\surefire11357269310753878702\surefirebooter4209322466678121398.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\maksi\AppData\Local\Temp\surefire6551815211208920886\surefirebooter8334300302958623552.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -58,15 +58,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.013">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.008">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
 	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
 </failure>
   </testcase>
-  <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0.002"/>
-  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.002"/>
+  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
   <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
-    <skipped message="Not implemented yet"/>
+    <skipped/>
   </testcase>
 </testsuite>
